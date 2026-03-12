@@ -1,6 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 
 function App() {
@@ -71,12 +70,12 @@ function App() {
             return (
               <div
                 key={idx}
-                className="flex flex-col justify-between items-start relative h-52 w-40 bg-cover rounded-2xl bg-[url('https://imgs.search.brave.com/w_ORjH_AHYUEtSxsOWwnuPJmF_Wf9GdWjvQy91plo9Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/cmVjb21tZW5kLXdv/cmtzL3BuZy1jbGlw/YXJ0LzIwMjUwMjE1/L291cm1pZC9wbmd0/cmVlLXN0aWNreS1u/b3Rlcy1wbmctaW1h/Z2VfMTU0ODQ0Mjcu/cG5n')] text-black py-4 px-8 pb-4"
+                className="flex flex-col justify-between items-start relative h-52 w-40 bg-cover rounded-2xl bg-[url('https://imgs.search.brave.com/w_ORjH_AHYUEtSxsOWwnuPJmF_Wf9GdWjvQy91plo9Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/cmVjb21tZW5kLXdv/cmtzL3BuZy1jbGlw/YXJ0LzIwMjUwMjE1/L291cm1pZC9wbmd0/cmVlLXN0aWNreS1u/b3Rlcy1wbmctaW1h/Z2VfMTU0ODQ0Mjcu/cG5n')] text-black py-6 px-8 pb-4"
               >
                 <h3 className="leading-tight text-lg font-bold">
                   {elem.title}{" "}
                 </h3>
-                <p className="mt-2 text-sm leading-tight font-medium text-gray-500">
+                <p className="mt-2 text-xs leading-tight font-semibold text-gray-500">
                   {elem.details}
                 </p>
                 <button
